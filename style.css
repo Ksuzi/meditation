@@ -25,7 +25,6 @@
 .player-container{
     position: relative;
 }
-
 .player-container svg{
     position: absolute;
     height: 50%;
