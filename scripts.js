@@ -29,7 +29,7 @@ const app = () =>{
     
     //play sound//
     play.addEventListener('click', () => {
-        checkPlaying(sound);
+        checkPlaying(song);
     })
 
     //select sound//
