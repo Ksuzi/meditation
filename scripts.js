@@ -65,7 +65,7 @@ const app = () =>{
         let progress = outlineLength - (currentTime / fakeDuration) * outlineLength;
         outline.style.strokeDashoffset = progress;
         //ANIMATE THE TEXT//
-        timeDisplay.textContent = `${minutes}:${seconds}`;
+        timeDisplay.textContent = `${minutes}:${seconds <10 ? '0'  + seconds : seconds}`;
 
         if(currentTime>=fakeDuration){
             song.pause();
