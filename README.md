@@ -1,2 +1,2 @@
 Meditation application. Just choose duration and theme.
-This application is developed using HTML, CSS and JavaScript. Have fun.
+This application is developed using HTML, CSS and JavaScript. Have fun. https://ksuzi.github.io/meditation/
